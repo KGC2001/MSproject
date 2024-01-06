@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.head1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 50px;
+
+  list-style-type: none;
+  text-decoration: none;
+  color: aqua;
+  font-size: xx-large;
+}
+.head2 {
+  width: 50%;
+  display: flex;
+  padding-right: 25px;
+  justify-content: space-around;
+}
+.bu1 {
+  border-radius: 12px;
+  padding: 8px 12px;
+  background-color: goldenrod;
+  color: rgb(233, 16, 88);
+}
+.bu2 {
+  border-radius: 12px;
+  background-color: yellow;
+  padding: 8px 12px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.probut {
+  border-radius: 12px;
+  background-color: yellow;
+  color: red;
+  padding: 8px 12px;
+  list-style-type: none;
+  text-decoration: none;
+}
+/* App.css */
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.back {
+  background-color: lightgoldenrodyellow;
+  background-size: cover;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  width: 50%;
+  height: 568px;
+}
+/* Header Styles */
+header {
+  background-color: rgb(190, 93, 142);
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  padding: 12px;
+  padding-right: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav ul Link li {
+  display: flex;
+  margin-right: 0px;
+  padding-right: 0px;
+  color: rgb(181, 68, 222);
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* About Section Styles */
+#about {
+  padding: 50px;
+
+  height: 568px;
+  background-color: rgb(119, 233, 6);
+  background-size: cover;
+}
+.abo {
+  color: rgb(183, 43, 43);
+  font-size: large;
+}
+/* Projects Section Styles */
+#projects {
+  padding: 50px;
+
+  height: 568px;
+  background-color: rgb(119, 233, 6);
+  background-size: cover;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.te {
+  margin: 20px;
+}
+.project-item {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px;
+
+  height: 568px;
+  background-color: rgb(119, 233, 6);
+  background-size: cover;
+}
+
+form label,
+form textarea,
+form button {
+  display: block;
+  margin-bottom: 15px;
+}
+
+form textarea {
+  width: 100%;
+  height: 150px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
